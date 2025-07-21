@@ -50,7 +50,7 @@ const App = () => {
             img={item.img}
             alt={item.alt}
             conditions={item.conditions}
-            time={item.conditions.time}
+            time={item.time}
           />
         ))}
       </section>
