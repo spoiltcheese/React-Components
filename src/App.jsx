@@ -47,6 +47,7 @@ const App = () => {
         {weatherForecasts.map((item, idx) => (
           <WeatherForecast
             key={idx}
+            day={item.day}
             img={item.img}
             alt={item.alt}
             conditions={item.conditions}

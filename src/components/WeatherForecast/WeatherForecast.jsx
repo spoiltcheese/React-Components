@@ -4,7 +4,7 @@ import React from "react";
 const WeatherForecast = (props) => {
   return (
     <div className="weather">
-      <h2>Day of the Week</h2>
+      <h2>{`${props.day}`}</h2>
       <img src={`${props.img}`} alt={`${props.imgAlt}`} />
       <p>
         <span>conditions: </span>
